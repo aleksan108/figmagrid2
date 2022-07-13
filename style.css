@@ -1,0 +1,262 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(/assets/fonts/Gilroy-ExtraBold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(/assets/fonts/Gilroy-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main{
+    width: 1920px;
+    height: 4600px;
+    background: url(/assets/images/back3.svg) no-repeat;
+    background-size: 100%;
+    font-family: 'Gilroy';
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-gap:5px;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 0.5fr 10fr 10fr 50fr;
+    position: relative;
+    top: 90px;
+    left: 90px;
+    width: 1740px;
+    height: 4100px;
+    padding: 40px 80px 40px 80px;
+    box-sizing: border-box;
+    grid-gap: 50px;
+}
+
+.firstrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    left: 80px;
+    top: 64px;
+    align-items: center;
+    height: 38px;
+}
+
+.logotitle{
+    font-size: 32px;
+}
+
+.menuitems{
+    display: grid;
+    font-size: 18px;
+    justify-self: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    justify-content: space-around;
+}
+
+.accountlink{
+    font-size: 17px;
+    justify-self: end;
+
+}
+
+.secondrow{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+
+.followlinks{
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 183px;
+    padding: 2px;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.divfollow{
+    display: inline;
+    transform: rotate(90deg);
+    position: relative;
+    height: 20px;
+    left: -25px;
+    top: 18px;
+}
+
+.content{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-rows: 22px 1fr 24px;
+    grid-gap: 50px;
+}
+
+.contentguide{
+    display: grid;
+    grid-template-columns: 1fr 2fr 6fr;
+    color: #FBD784;
+    font-size: 18px;
+}
+
+.contentimg{
+    align-self:center;
+}
+
+.contentmain{
+    width: 950px;
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.contentarrow{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr;
+}
+
+.slider{
+    display: grid;
+    align-self: center;
+    justify-self: start;
+    grid-template-columns: 1fr 3px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    justify-self: end;
+    height: 240px;
+}
+
+.sliderimg{
+    grid-area: 1/2/4/2;
+}
+
+.slidertext{
+    font-size: 18px;
+    justify-self: end;
+    height:max-content;
+}
+
+.forthrow{
+    display: grid;
+    grid-template-rows: 5fr 5fr 5fr 2fr;
+    justify-content: space-around;
+}
+
+.content1{
+    display: grid;
+    grid-template-columns: 240px 1fr 566px;
+    grid-gap: 20px;
+    width: 1462px;
+}
+
+.number1{
+    font-weight: 700;
+    font-size: 240px;
+    grid-area: 1;
+    opacity: 0.1;
+}
+
+.subcontent1{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-rows: 22px 1fr 1fr 22px;
+    grid-gap: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    position: relative;
+    left:-100px;
+}
+
+.subheader1{
+    font-size: 64px;
+    line-height: 76.8px;
+    font-weight: 500;
+}
+
+.yellowtext{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 3fr;
+    color: #FBD784;
+    font-size: 18px;
+}
+
+.yellowtext3{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 3fr;
+    color: #FBD784;
+    font-size: 18px;
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: 566px 240px 1fr;
+    grid-gap: 20px;
+    width: 1462px;
+}
+
+.number2{
+    font-weight: 700;
+    font-size: 240px;
+    opacity: 0.1;
+    position: relative;
+    left: 100px;
+}
+
+.subcontent2{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-rows: 22px 1fr 1fr 22px;
+    grid-gap: 30px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.subheader2{
+    font-size: 64px;
+    line-height: 76.8px;
+    font-weight: 500;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 6.5fr 4fr;
+    justify-content: center;
+    width: 1462px;
+}
+
+.sometext{
+    font-size: 18px;
+    width: 303px;
+}
+
+.more{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    justify-content: space-between;
+    grid-gap: 100px
+}
+
+.morecontent{
+    display: grid;
+    grid-template-rows: 2fr repeat(5, 1fr);
+    font-size: 18px;
+
+}
+
+.moreheader{
+    color: #FBD784;
+    font-size: 24px;
+}
+
